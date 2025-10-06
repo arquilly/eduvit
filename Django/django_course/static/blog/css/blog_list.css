@@ -1,0 +1,129 @@
+.search-form {
+    margin: 1%;
+    display: flex;
+    gap: 10px;
+}
+
+.search-form input[type="text"] {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex-grow: 1;
+}
+
+.search-form button {
+    padding: 8px 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 1%;
+}
+
+.news-card {
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+}
+
+.news-image {
+    width: 250px;
+    min-width: 250px;
+    overflow: hidden;
+}
+
+.news-image img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.news-content {
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.news-title {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.news-title a {
+    color: #333;
+    text-decoration: none;
+}
+
+.news-title a:hover {
+    color: #007bff;
+}
+
+.edit-btn {
+    color: #6c757d;
+    font-size: 1rem;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.edit-btn:hover {
+    color: #ffc107;
+}
+
+.news-text {
+    margin: 0 0 10px 0;
+    color: #555;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.news-info {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    gap: 10px;
+}
+
+.page-link {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.page-link:hover {
+    background: #f8f9fa;
+}
+
+.current-page {
+    padding: 5px 10px;
+}
