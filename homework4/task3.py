@@ -6,4 +6,5 @@ def func(text, filename):
         lines = file.readlines()
         for i in lines[1::2]:
             print(i.strip())
-func("Вторая строка", "example.txt")
+
+func("Вторая строка", "homework4/example.txt")
